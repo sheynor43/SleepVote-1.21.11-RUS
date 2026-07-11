@@ -1,0 +1,33 @@
+# SleepVote configuration file.
+# Файл конфигурации плагина SleepVote.
+
+# Plugin language: "en" (English) or "ru" (Russian).
+# Язык плагина: "en" (английский) или "ru" (русский).
+language: ru
+
+vote:
+  # How long a vote lasts, in seconds.
+  # Сколько секунд длится голосование.
+  duration-seconds: 15
+  # Percentage (0-100) of players in the world that must vote "yes"
+  # for the night to be skipped.
+  # Процент (0-100) игроков в мире, которые должны проголосовать "за",
+  # чтобы ночь была пропущена.
+  required-percent: 50
+
+display:
+  # Where to show the countdown while a vote is running.
+  # Allowed values: CHAT, ACTIONBAR.
+  # Где показывать обратный отсчёт во время голосования.
+  # Допустимые значения: CHAT, ACTIONBAR.
+  countdown: CHAT
+  # Where to show the vote result (whether the night was skipped or not).
+  # Allowed values: CHAT, ACTIONBAR.
+  # Где показывать итог голосования (пропущена ночь или нет).
+  # Допустимые значения: CHAT, ACTIONBAR.
+  result: CHAT
+
+time:
+  # How many ticks the world time advances per server tick while skipping the night.
+  # На сколько тиков продвигается время мира за один тик сервера при пропуске ночи.
+  skip-speed: 20

@@ -1,0 +1,15 @@
+# Русские сообщения для SleepVote.
+# Можешь свободно их менять, поддерживаются цветовые коды "&".
+
+vote-start: "&eИгрок %player% хочет пропустить ночь!"
+vote-yes-button: "[Да]"
+vote-no-button: "[Нет]"
+vote-countdown: "&7До конца голосования: &e%seconds% сек."
+vote-already-voted: "&cТы уже проголосовал."
+vote-wrong-world: "&cТы не участвуешь в этом голосовании."
+vote-registered-yes: "&aТы проголосовал ЗА."
+vote-registered-no: "&cТы проголосовал ПРОТИВ."
+vote-result-success: "&aНочь пропущена."
+vote-result-fail: "&cНедостаточно голосов, ночь продолжается."
+command-players-only: "&cЭту команду может использовать только игрок."
+command-usage: "&cИспользование: /sleepvote <yes|no>"

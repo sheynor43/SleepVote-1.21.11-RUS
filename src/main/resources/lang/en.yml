@@ -1,0 +1,15 @@
+# English messages for SleepVote.
+# You may edit these freely, "&" color codes are supported.
+
+vote-start: "&ePlayer %player% wants to skip the night!"
+vote-yes-button: "[Yes]"
+vote-no-button: "[No]"
+vote-countdown: "&7Time left to vote: &e%seconds%s"
+vote-already-voted: "&cYou have already voted."
+vote-wrong-world: "&cYou are not part of this vote."
+vote-registered-yes: "&aYou voted YES."
+vote-registered-no: "&cYou voted NO."
+vote-result-success: "&aThe night has been skipped."
+vote-result-fail: "&cNot enough votes, the night continues."
+command-players-only: "&cOnly players can use this command."
+command-usage: "&cUsage: /sleepvote <yes|no>"

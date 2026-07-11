@@ -1,0 +1,11 @@
+name: SleepVote
+version: 1.1
+main: me.sheynor.sleepvote.SleepVotePlugin
+api-version: 1.21
+author: sheynor43
+description: Vote to skip the night by sleeping in a bed.
+
+commands:
+  sleepvote:
+    description: Vote for skipping the night.
+    usage: /sleepvote <yes|no>
